@@ -1,0 +1,313 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+/*style tampilan halaman utuh*/
+
+    background: #9C835F;
+    width: 90%;
+    height: 90%;
+
+}
+
+.logopermainan {
+/* style logo 1.png */
+
+position: absolute;
+width: 5%;
+height: 8%;
+left: 5%;
+top: 6%;
+
+
+}
+
+
+
+svg 
+/*style SVG scalable vector graphics*/
+{
+position: absolute;
+width: 70px;
+height: 90px;
+left: 10px;
+top: 80px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 100px;
+line-height: 50px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #724C21;
+}
+
+h1{
+/* style ROCK PAPER SCISSORS */
+
+position: absolute;
+width: 400px;
+height: 62px;
+left: 150px;
+top: 40px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 49px;
+text-align: center;
+color: #F9B23D;
+
+}
+
+.PLAYER {
+/* tulisan PLAYER 1 */
+
+position: absolute;
+width: 299px;
+height: 94px;
+left: 296px;
+top: 150px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 49px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #000000;
+
+}
+ 
+.batuplayer {
+/* batu  */
+
+position: absolute;
+width: 100px;
+height: 80px;
+left: 390px;
+top: 250px;
+padding: 0%;
+
+   
+}
+.batuplayer:hover {
+/* kotak abu-abu di batu player */
+
+padding: 10px;
+border-radius: 10px;
+cursor: pointer;
+transition: 1.5;
+background-color: #c4c4c4;
+
+
+}
+
+.kertasplayer {
+/* kertas */
+
+position: absolute;
+width: 100px;
+height: 90px;
+left: 390px;
+top: 350px;
+
+}
+.kertasplayer:hover {
+/* kotak abu-abu di kertas player */
+    
+padding: 10px;
+background: #C4C4C4;
+border-radius: 10px;
+cursor: pointer;
+transition: 100;
+}
+
+.guntingplayer {
+/* gunting */
+
+position: absolute;
+width: 100px;
+height: 90px;
+left: 390px;
+top: 460px;
+
+}
+
+.guntingplayer:hover {
+/* kotak abu-abu di gunting player */
+        
+padding: 10px;
+background: #C4C4C4;
+border-radius: 10px;
+cursor: pointer;
+transition: 100;
+    }
+
+.VERSUS {
+/*VS*/
+
+position: absolute;
+width: 200px;
+height: 180px;
+left: 589px;
+top: 175px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 100px;
+line-height: 190px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #BD0000;
+}
+
+.batucomputer {
+/*batu punya computer*/
+
+position: absolute;
+width: 90px;
+height: 70px;
+left: 440px;
+top: 125px;
+
+}
+
+.batucomputer:hover {
+    /* kotak abu-abu di batu computer */
+        
+    padding: 10px;
+    background: #C4C4C4;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 100;
+    }
+
+.kertascomputer { 
+/*kertas punya komputer*/
+
+position: absolute;
+width: 90px;
+height: 80px;
+left: 440px;
+top: 173px;
+
+}
+
+.kertascomputer:hover {
+    /* kotak abu-abu di kertas computer */
+        
+    padding: 10px;
+    background: #C4C4C4;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 100;
+}
+
+
+.guntingcomputer {
+/*gunting punya komputer*/
+
+position: absolute;
+width: 90px;
+height: 80px;
+left: 440px;
+top: 230px;
+
+}
+
+.guntingcomputer:hover {
+    /* kotak abu-abu di gunting computer */
+        
+    padding: 10px;
+    background: #C4C4C4;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 100;
+}
+
+.Komputer {
+/* tulisan COM */
+
+position: absolute;
+width: 300px;
+height: 94px;
+left: 780px;
+top: 150px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 49px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #000000;
+
+}
+
+.refresh {
+
+/* refresh */
+position: absolute;
+width: 77px;
+height: 71px;
+left: 589px;
+top: 500px;
+
+
+
+}
+
+.PLAYERWIN {
+/* playerwin */
+
+position: absolute;
+width: 296px;
+height: 186px;
+left: 568px;
+top: 525.37px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 52px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #FFFFFF;
+transform: rotate(-30.98deg);
+
+
+
+}
+
+.COMWIN{
+/* Rectangle 73/comwin */
+
+position: absolute;
+width: 271.11px;
+height: 166.93px;
+left: 561px;
+top: 489.89px;
+background: #4C9654;
+border-radius: 10px;
+transform: rotate(-28.87deg);
+
+}
+
+.DRAW {
+/* Rectangle 73/draw */
+
+position: absolute;
+width: 271.11px;
+height: 166.93px;
+left: 561px;
+top: 489.89px;
+background: #035B0C;
+border-radius: 10px;
+transform: rotate(-28.87deg);
+
+}
