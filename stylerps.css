@@ -17,11 +17,10 @@ position: absolute;
 width: 5%;
 height: 8%;
 left: 5%;
-top: 6%;
+top: 5%;
 
 
 }
-
 
 
 svg 
@@ -31,7 +30,7 @@ position: absolute;
 width: 70px;
 height: 90px;
 left: 10px;
-top: 80px;
+top: 60px;
 font-family: Open Sans;
 font-style: normal;
 font-weight: bold;
@@ -49,7 +48,7 @@ position: absolute;
 width: 400px;
 height: 62px;
 left: 150px;
-top: 40px;
+top: 20px;
 font-family: Open Sans;
 font-style: normal;
 font-weight: bold;
@@ -67,11 +66,11 @@ position: absolute;
 width: 299px;
 height: 94px;
 left: 296px;
-top: 150px;
+top: 80px;
 font-family: Open Sans;
 font-style: normal;
 font-weight: bold;
-font-size: 30px;
+font-size: 36px;
 line-height: 49px;
 text-align: center;
 letter-spacing: 0.1em;
@@ -84,10 +83,10 @@ color: #000000;
 /* batu  */
 
 position: absolute;
-width: 100px;
-height: 80px;
-left: 390px;
-top: 250px;
+width: 90px;
+height: 70px;
+left: 180px;
+top: 90px;
 padding: 0%;
 
    
@@ -108,10 +107,10 @@ background-color: #c4c4c4;
 /* kertas */
 
 position: absolute;
-width: 100px;
-height: 90px;
-left: 390px;
-top: 350px;
+width: 90px;
+height: 80px;
+left: 180px;
+top: 140px;
 
 }
 .kertasplayer:hover {
@@ -128,10 +127,10 @@ transition: 100;
 /* gunting */
 
 position: absolute;
-width: 100px;
-height: 90px;
-left: 390px;
-top: 460px;
+width: 90px;
+height: 80px;
+left: 180px;
+top: 199px;
 
 }
 
@@ -152,7 +151,7 @@ position: absolute;
 width: 200px;
 height: 180px;
 left: 589px;
-top: 175px;
+top: 100px;
 font-family: Open Sans;
 font-style: normal;
 font-weight: bold;
@@ -171,18 +170,18 @@ position: absolute;
 width: 90px;
 height: 70px;
 left: 440px;
-top: 125px;
+top: 90px;
 
 }
 
 .batucomputer:hover {
     /* kotak abu-abu di batu computer */
         
-    padding: 10px;
-    background: #C4C4C4;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 100;
+padding: 10px;
+background: #C4C4C4;
+border-radius: 10px;
+cursor: pointer;
+transition: 100;
     }
 
 .kertascomputer { 
@@ -192,18 +191,18 @@ position: absolute;
 width: 90px;
 height: 80px;
 left: 440px;
-top: 173px;
+top: 138px;
 
 }
 
 .kertascomputer:hover {
     /* kotak abu-abu di kertas computer */
         
-    padding: 10px;
-    background: #C4C4C4;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 100;
+padding: 10px;
+background: #C4C4C4;
+border-radius: 10px;
+cursor: pointer;
+transition: 100;
 }
 
 
@@ -214,18 +213,18 @@ position: absolute;
 width: 90px;
 height: 80px;
 left: 440px;
-top: 230px;
+top: 195px;
 
 }
 
 .guntingcomputer:hover {
     /* kotak abu-abu di gunting computer */
         
-    padding: 10px;
-    background: #C4C4C4;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 100;
+padding: 10px;
+background: #C4C4C4;
+border-radius: 10px;
+cursor: pointer;
+transition: 100;
 }
 
 .Komputer {
@@ -235,7 +234,7 @@ position: absolute;
 width: 300px;
 height: 94px;
 left: 780px;
-top: 150px;
+top: 80px;
 font-family: Open Sans;
 font-style: normal;
 font-weight: bold;
@@ -254,8 +253,8 @@ color: #000000;
 position: absolute;
 width: 77px;
 height: 71px;
-left: 589px;
-top: 500px;
+left: 320px;
+top: 350px;
 
 
 
@@ -309,5 +308,6 @@ top: 489.89px;
 background: #035B0C;
 border-radius: 10px;
 transform: rotate(-28.87deg);
+color:#FFFFFF
 
 }
