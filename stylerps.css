@@ -19,9 +19,7 @@ height: 8%;
 left: 5%;
 top: 5%;
 
-
 }
-
 
 svg 
 /*style SVG scalable vector graphics*/
@@ -278,7 +276,7 @@ letter-spacing: 0.1em;
 text-transform: uppercase;
 color: #FFFFFF;
 transform: rotate(-30.98deg);
-
+display: none;
 
 
 }
@@ -303,6 +301,7 @@ line-height: 52px;
 text-align: center;
 letter-spacing: 0.1em;
 text-transform: uppercase;
+display: none;
 
 
 
@@ -330,5 +329,6 @@ font-size: 38px;
 line-height: 52px;
 letter-spacing: 0.1em;
 text-transform: uppercase;
+display: none;
 }
 
