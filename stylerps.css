@@ -89,17 +89,19 @@ padding: 0%;
 
    
 }
-.batuplayer:hover {
-/* kotak abu-abu di batu player */
+
+/*.batuplayer:hover {
+/* kotak abu-abu di batu player 
 
 padding: 10px;
 border-radius: 10px;
 cursor: pointer;
 transition: 1.5;
 background-color: #c4c4c4;
+*/
 
 
-}
+
 
 .kertasplayer {
 /* kertas */
@@ -111,15 +113,15 @@ left: 180px;
 top: 140px;
 
 }
-.kertasplayer:hover {
-/* kotak abu-abu di kertas player */
+/*.kertasplayer:hover {
+/* kotak abu-abu di kertas player 
     
 padding: 10px;
 background: #C4C4C4;
 border-radius: 10px;
 cursor: pointer;
 transition: 100;
-}
+}*/
 
 .guntingplayer {
 /* gunting */
@@ -132,15 +134,15 @@ top: 199px;
 
 }
 
-.guntingplayer:hover {
-/* kotak abu-abu di gunting player */
+/*.guntingplayer:hover {
+/* kotak abu-abu di gunting player 
         
 padding: 10px;
 background: #C4C4C4;
 border-radius: 10px;
 cursor: pointer;
 transition: 100;
-    }
+    }*/
 
 .VERSUS {
 /*VS*/
@@ -172,15 +174,16 @@ top: 90px;
 
 }
 
-.batucomputer:hover {
-    /* kotak abu-abu di batu computer */
+/*.batucomputer:hover {
+    /* kotak abu-abu di batu computer 
         
 padding: 10px;
 background: #C4C4C4;
 border-radius: 10px;
 cursor: pointer;
 transition: 100;
-    }
+*/
+    
 
 .kertascomputer { 
 /*kertas punya komputer*/
@@ -193,15 +196,15 @@ top: 138px;
 
 }
 
-.kertascomputer:hover {
-    /* kotak abu-abu di kertas computer */
+/*.kertascomputer:hover {
+    /* kotak abu-abu di kertas computer 
         
 padding: 10px;
 background: #C4C4C4;
 border-radius: 10px;
 cursor: pointer;
 transition: 100;
-}
+}*/
 
 
 .guntingcomputer {
@@ -215,14 +218,25 @@ top: 195px;
 
 }
 
-.guntingcomputer:hover {
-    /* kotak abu-abu di gunting computer */
+/*.guntingcomputer:hover {
+    /* kotak abu-abu di gunting computer 
         
 padding: 10px;
 background: #C4C4C4;
 border-radius: 10px;
 cursor: pointer;
 transition: 100;
+}
+
+*/
+
+
+.background:hover {
+    padding: 10px;
+    background: #C4C4C4;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 100;
 }
 
 .Komputer {
@@ -252,9 +266,7 @@ position: absolute;
 width: 77px;
 height: 71px;
 left: 320px;
-top: 350px;
-
-
+top: 300px;
 
 }
 
@@ -302,9 +314,6 @@ text-align: center;
 letter-spacing: 0.1em;
 text-transform: uppercase;
 display: none;
-
-
-
 transform: rotate(-30.98deg);
 }
 
