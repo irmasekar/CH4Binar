@@ -261,7 +261,7 @@ top: 350px;
 }
 
 .PLAYERWIN {
-/* playerwin */
+/* box ijo playerwin */
 
 position: absolute;
 width: 296px;
@@ -284,30 +284,51 @@ transform: rotate(-30.98deg);
 }
 
 .COMWIN{
-/* Rectangle 73/comwin */
+/* box ijo comwin */
 
 position: absolute;
-width: 271.11px;
-height: 166.93px;
-left: 561px;
-top: 489.89px;
+width: 296px;
+height: 186px;
+left: 568px;
+top: 525.37px;
 background: #4C9654;
 border-radius: 10px;
 transform: rotate(-28.87deg);
+color: #FFFFFF;
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 52px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
 
+
+
+transform: rotate(-30.98deg);
 }
+
 
 .DRAW {
-/* Rectangle 73/draw */
+/* box ijo draw */
 
 position: absolute;
-width: 271.11px;
-height: 166.93px;
-left: 561px;
-top: 489.89px;
+width: 296px;
+height: 186px;
+left: 575px;
+top: 544.37px;
 background: #035B0C;
 border-radius: 10px;
-transform: rotate(-28.87deg);
-color:#FFFFFF
-
+transform: rotate(-30.98deg);
+color:#FFFFFF;
+text-align: center;
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 52px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
 }
+
